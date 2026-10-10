@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="2400" viewBox="0 0 1080 2400">
+<defs>
+  <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+    <stop offset="0" stop-color="#050817"/><stop offset=".48" stop-color="#11103b"/><stop offset="1" stop-color="#09051b"/>
+  </linearGradient>
+  <radialGradient id="glow"><stop offset="0" stop-color="#00eaff" stop-opacity=".8"/><stop offset="1" stop-color="#00eaff" stop-opacity="0"/></radialGradient>
+  <linearGradient id="line"><stop stop-color="#00eaff"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+</defs>
+<rect width="1080" height="2400" fill="url(#bg)"/>
+<circle cx="210" cy="690" r="520" fill="url(#glow)" opacity=".38"/>
+<circle cx="900" cy="1450" r="600" fill="#7928ca" opacity=".15"/>
+<g fill="none" stroke="url(#line)" stroke-width="3" opacity=".52">
+ <path d="M0 1280 L290 980 L500 980 L690 790 L1080 790"/>
+ <path d="M0 1370 L330 1040 L520 1040 L720 840 L1080 840"/>
+ <path d="M0 1460 L370 1090 L560 1090 L760 890 L1080 890"/>
+ <path d="M0 1700 L280 1420 L480 1420 L700 1200 L1080 1200"/>
+ <path d="M0 1780 L310 1470 L510 1470 L730 1250 L1080 1250"/>
+</g>
+<g fill="#00eaff" opacity=".8">
+ <circle cx="175" cy="480" r="5"/><circle cx="850" cy="520" r="4"/><circle cx="790" cy="1860" r="6"/>
+ <circle cx="320" cy="2020" r="4"/><circle cx="930" cy="1050" r="4"/>
+</g>
+<g stroke="#8b5cf6" stroke-width="2" opacity=".35">
+ <path d="M80 200 H360 M80 230 H250 M730 2200 H1000 M820 2230 H1000"/>
+ <path d="M90 300 V600 M990 1680 V1980"/>
+</g>
+<path d="M540 700 L690 950 L540 1200 L390 950 Z" fill="none" stroke="#00eaff" stroke-width="5" opacity=".85"/>
+<path d="M540 760 L650 950 L540 1140 L430 950 Z" fill="#7c3aed" opacity=".12"/>
+<text x="540" y="1580" text-anchor="middle" font-family="sans-serif" font-size="58" letter-spacing="12" fill="#e8fbff">CYBERPUNK</text>
+<text x="540" y="1645" text-anchor="middle" font-family="sans-serif" font-size="24" letter-spacing="9" fill="#a78bfa">NEON SYSTEM • 2080</text>
+</svg>

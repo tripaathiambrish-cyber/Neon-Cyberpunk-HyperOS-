@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1080" height="2400" viewBox="0 0 1080 2400">
+<defs>
+ <linearGradient id="bg" x1="0" y1="0" x2="0.9" y2="1"><stop stop-color="#030712"/><stop offset=".55" stop-color="#15103b"/><stop offset="1" stop-color="#09051b"/></linearGradient>
+ <radialGradient id="halo"><stop stop-color="#7c3aed" stop-opacity=".7"/><stop offset="1" stop-color="#7c3aed" stop-opacity="0"/></radialGradient>
+ <linearGradient id="edge"><stop stop-color="#00eaff"/><stop offset="1" stop-color="#c084fc"/></linearGradient>
+</defs>
+<rect width="1080" height="2400" fill="url(#bg)"/>
+<circle cx="540" cy="1000" r="650" fill="url(#halo)"/>
+<g fill="none" stroke="url(#edge)" stroke-width="4" opacity=".72">
+ <path d="M-50 1150 L300 800 L470 800 L650 620 L1130 620"/>
+ <path d="M-50 1230 L330 850 L500 850 L680 670 L1130 670"/>
+ <path d="M-50 1310 L360 900 L530 900 L710 720 L1130 720"/>
+ <path d="M100 1800 L350 1550 L730 1550 L980 1300"/>
+ <path d="M100 1870 L380 1590 L700 1590 L980 1310"/>
+</g>
+<g fill="none" stroke="#00eaff" stroke-width="2" opacity=".4">
+ <circle cx="540" cy="1020" r="230"/><circle cx="540" cy="1020" r="300"/><circle cx="540" cy="1020" r="370"/>
+</g>
+<path d="M540 790 L690 1020 L540 1250 L390 1020 Z" fill="#00eaff" fill-opacity=".08" stroke="#00eaff" stroke-width="5"/>
+<text x="540" y="1470" text-anchor="middle" font-family="sans-serif" font-size="42" letter-spacing="9" fill="#e9fbff">ENTER THE FUTURE</text>
+<text x="540" y="1530" text-anchor="middle" font-family="sans-serif" font-size="22" letter-spacing="8" fill="#c4b5fd">NEON CYBERPUNK</text>
+<g fill="#00eaff"><circle cx="160" cy="410" r="5"/><circle cx="910" cy="430" r="5"/><circle cx="860" cy="1970" r="5"/><circle cx="220" cy="2020" r="4"/></g>
+</svg>
